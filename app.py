@@ -204,7 +204,7 @@ if st.button("Analyze Review"):
         if selected_model=="SimpleRNN":
 
             sentiment,confidence,prob = predict(
-                rnn_model,
+                simple_rnn_model,
                 review
             )
 
